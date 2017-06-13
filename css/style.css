@@ -18,17 +18,43 @@ body {
 	padding: 5px 20px;
 	color: #69585F;
 }
-.nav-toggle {
+/*.nav-toggle {
 	margin-left: auto;
 	cursor: pointer;
 }
+*/
 .nav-list-collapsed {
 	display: none;
 }
 .nav-list {
 	list-style: none;
+	background: #69585F;
 }
 .nav-list a{
 	text-decoration: none;
-	color: #69585F;
+	color: #ffc2ab;
+	padding: 3px 10px;
+	text-align: center;
 	}
+.nav-list li {
+	display: flex;
+	justify-content: flex-end;
+	font-size: 18px;
+}
+.nav-list li a:hover {
+	display: flex;
+	justify-content: flex-end;
+	background: #FCDDBC;
+	color: #69585F;
+	width: 70px;
+	transition: .7s;
+}
+.icons {
+	display: flex;
+	margin-left: auto;
+	cursor: pointer;
+}
+.icons i{
+	padding: 0 10px 0 0;
+	color: #69585F;
+}
