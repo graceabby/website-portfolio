@@ -5,3 +5,18 @@
 body {
 	background: #ffc2ab;
 }
+
+.navbar {
+	display: flex;
+	font-size: 25px;
+	padding: 5px 20px;
+	border: 3px solid #fff;
+	color: #fff;
+}
+.nav-toggle {
+	margin-left: auto;
+	cursor: pointer;
+}
+.nav-list-collapsed {
+	display: none;
+}
